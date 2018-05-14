@@ -148,6 +148,7 @@ namespace ProyectoFinal.rFactura
             DetallecomboBox.Text = string.Empty;
             DetallecomboBox.Enabled = false;
             EliminarDetalle.Enabled = false;
+            FechadateTimePicker.Value = DateTime.Now;
         }
 
         private void Guardarbutton_Click(object sender, EventArgs e)
