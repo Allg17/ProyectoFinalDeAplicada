@@ -45,6 +45,7 @@
             this.Guardarbutton = new System.Windows.Forms.Button();
             this.Nuevobutton = new System.Windows.Forms.Button();
             this.IDcomboBox = new System.Windows.Forms.ComboBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.IDerrorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DemaserrorProvider)).BeginInit();
             this.SuspendLayout();
@@ -182,6 +183,10 @@
             this.IDcomboBox.TabIndex = 14;
             this.IDcomboBox.SelectedIndexChanged += new System.EventHandler(this.IDcomboBox_SelectedIndexChanged);
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            // 
             // rCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,5 +235,6 @@
         private System.Windows.Forms.ErrorProvider IDerrorProvider;
         private System.Windows.Forms.ErrorProvider DemaserrorProvider;
         private System.Windows.Forms.ComboBox IDcomboBox;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

@@ -27,5 +27,7 @@ namespace ProyectoFinal.RCliente
             ReporteClienteViewer.ReportSource = abrir;
             ReporteClienteViewer.Refresh();
         }
+
+        
     }
 }

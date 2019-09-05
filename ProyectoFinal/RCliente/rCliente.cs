@@ -172,5 +172,10 @@ namespace ProyectoFinal.RCliente
             TelefonomaskedTextBox.Clear();
             LimpiarProvider();
         }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }
